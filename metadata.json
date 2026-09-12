@@ -1,0 +1,6 @@
+{
+  "name": "Om Sai Ki Rasoi",
+  "description": "World-class modern Indian culinary architecture and family restaurant website for Om Sai Ki Rasoi, Civil Lines, Prayagraj.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+    --font-cormorant: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-ui: 'Poppins', 'Inter', system-ui, sans-serif;
+    
+    --color-ivory: #FAF8F3;
+    --color-graphite: #1A1A1A;
+    --color-walnut: #6B4F3B;
+    --color-champagne: #D6B56C;
+    --color-olive: #7A8B5A;
+    --color-stone: #D9D5CC;
+  }
+
+  body {
+    background-color: #FAF8F3;
+    color: #1A1A1A;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+    letter-spacing: -0.02em;
+  }
+
+  button, .font-ui {
+    font-family: var(--font-ui);
+  }
+}
+
+/* Luxury Architectural Micro-interactions */
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-ui {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Architectural grid line effects */
+.bg-grid-stone {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(217, 213, 204, 0.3) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(217, 213, 204, 0.3) 1px, transparent 1px);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF8F3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9D5CC;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D6B56C;
+}
